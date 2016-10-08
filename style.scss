@@ -1,0 +1,32 @@
+p {
+  animation-duration: 8s;
+  animation-name: slidein;
+  font-family: 'Lato', sans-serif;
+}
+
+#fire {
+  font-family: 'Unna', serif;
+  font-size: 96px;
+  color: red;
+  margin 20px;
+}
+
+#water {
+  font-family: 'Unna', serif;
+  font-size: 96px;
+  color: blue;
+  margin: 30px;
+}
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
